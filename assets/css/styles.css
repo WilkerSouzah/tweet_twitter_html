@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --text: #0F1419;
+    --icons-text: #536471;
+    --border: #DADDDF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-tweet {
+    width: 591px;
+    height: 161px;
+    display: flex;
+    border: 1px solid var(--border);
+    /*box-sizing: border-box;*/
+}
+
+.image {
+    /*width: 17px;
+    height: 17px;*/
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.header {
+    display: flex;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.icon-verify {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    margin-left: 3px;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background: var(--icons-text);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.main p {
+    width: 430px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.margin {
+    margin-top: 38px;
+}
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    max-width: 430px;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.icon-comments {
+    margin-right: 17px;
+}
+
+.icon-retweet {
+    margin-right: 18px;
+}
+
+.icon-favorite {
+    margin-right: 21px;
+}
